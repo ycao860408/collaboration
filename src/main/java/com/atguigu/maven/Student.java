@@ -7,6 +7,10 @@ public class Student {
 
     public Student() {
     }
+    
+    public Student(Integer age) {
+        this.age = age;
+    }
 
     public Student(String name, Integer age, Integer height) {
         this.name = name;
